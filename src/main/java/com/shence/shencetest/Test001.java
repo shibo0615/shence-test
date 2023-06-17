@@ -61,6 +61,7 @@ public class Test001 {
                           "【" + String.valueOf(res.getString(3)) + "】" +
                           "【" + String.valueOf(res.getTimestamp(4)) + "】" +
                            "\n";
+                
             }
 
             logger.log(Level.INFO,resStr);
