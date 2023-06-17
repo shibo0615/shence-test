@@ -56,12 +56,13 @@ public class Test001 {
             while (res.next()) {
 
 
-                resStr += "【" + String.valueOf(res.getDouble(1)) + "】" +
+                resStr += "\n" +
+                        "【" + String.valueOf(res.getDouble(1)) + "】" +
                           "【" + String.valueOf(res.getString(2)) + "】" +
                           "【" + String.valueOf(res.getString(3)) + "】" +
                           "【" + String.valueOf(res.getTimestamp(4)) + "】" +
                            "\n";
-                
+
             }
 
             logger.log(Level.INFO,resStr);
